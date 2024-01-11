@@ -6,14 +6,14 @@ There are two different branches associated with this lesson.
   - This branch includes all the added notes for you to review and compare with your own code-along.
 
 ### Topics Covered
-- 
+- Completing Login Component
+- Storing **token** to `localstorage`.
 
 ### What Should Already Be Understood
 - Creating a React Application
   - File / Folder structure
 - Reusable Components
 - Props
-- Basic structure of `useState`
 
 ## Files / Folders Provided in this Lesson
 This project is meant to build upon **Part 1** lecture. Building out a new project will require the previous code in order to function correctly. Creating a new application will also require the install of `reactstrap` and `bootstrap`. 
@@ -24,6 +24,8 @@ This project is meant to build upon **Part 1** lecture. Building out a new proje
 The solution the the **Login Challenge** is provided here as well.
 
 - movies
+  - assets
+    - `passing token to app.png`
   - src
     - components
       - auth
@@ -36,7 +38,6 @@ The solution the the **Login Challenge** is provided here as well.
       - *boilerplate code removed*
     - [App.css](./src/App.css) (provided code)
 
-- `notes.md`: details the various notes taught throughout this lesson.
 - **assets folder**: additional notes
   - screenshot of where to update server
   - component tree example
