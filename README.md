@@ -13,7 +13,7 @@ There are two different branches associated with this lesson.
 - Creating a React Application
   - File / Folder structure
 - Reusable Components
-- Props
+- Props / useState 
 
 ## Files / Folders Provided in this Lesson
 This project is meant to build upon **Part 1** lecture. Building out a new project will require the previous code in order to function correctly. Creating a new application will also require the install of `reactstrap` and `bootstrap`. 
@@ -35,12 +35,7 @@ The solution the the **Login Challenge** is provided here as well.
         - login
           - [Login.jsx](./src/components/auth/login/Login.jsx)
     - `App.jsx`
-      - *boilerplate code removed*
     - [App.css](./src/App.css) (provided code)
-
-- **assets folder**: additional notes
-  - screenshot of where to update server
-  - component tree example
 
 ## Resources
 - [Reactstrap Docs](https://reactstrap.github.io/?path=/docs/components-forms--input#hidden-labels)
@@ -48,3 +43,4 @@ The solution the the **Login Challenge** is provided here as well.
 - [w3Schools useRef](https://www.w3schools.com/react/react_useref.asp)
 - [Hook API Reference React](https://reactjs.org/docs/hooks-reference.html#useref)
 - [NPM Cors Package](https://www.npmjs.com/package/cors)
+- [setItem()](https://www.w3schools.com/jsref/met_storage_setitem.asp)
