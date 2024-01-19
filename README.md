@@ -23,6 +23,9 @@ This project is meant to build upon **Part 1** lecture. Building out a new proje
 
 The solution the the **Login Challenge** is provided here as well.
 
+**Running:**
+- You will need to start up **MongoDB** and your **Movie Server**. Navigate to your server project within the terminal and run `nodemon` or `npm start` and have your server going while building the Movie application.
+
 - movies
   - assets
     - `passing token to app.png`
