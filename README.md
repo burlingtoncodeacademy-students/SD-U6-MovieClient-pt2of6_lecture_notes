@@ -13,7 +13,8 @@ There are two different branches associated with this lesson.
 - Creating a React Application
   - File / Folder structure
 - Reusable Components
-- Props / useState 
+- Props 
+- useState & useRef
 
 ## Files / Folders Provided in this Lesson
 This project is meant to build upon **Part 1** lecture. Building out a new project will require the previous code in order to function correctly. Creating a new application will also require the install of `reactstrap` and `bootstrap`. 
