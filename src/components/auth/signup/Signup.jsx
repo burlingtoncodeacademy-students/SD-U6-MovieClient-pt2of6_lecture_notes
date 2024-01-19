@@ -1,7 +1,7 @@
 import React, { useRef } from 'react'
 import { Form, FormGroup, Input, Label, Button } from 'reactstrap'
 
-function Signup() {
+function Signup({updateToken}) {
 
     const firstNameRef = useRef();
     const lastNameRef = useRef();
@@ -33,7 +33,9 @@ function Signup() {
         try {
             const response = await fetch(url, requestOptions);
             const data = await response.json();
-            console.log(data)
+            // console.log(data)
+
+            updateToken(data.token)
 
         } catch(err) {
             console.error(err.message);

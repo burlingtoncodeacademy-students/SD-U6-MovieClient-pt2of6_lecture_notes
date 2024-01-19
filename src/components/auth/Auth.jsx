@@ -3,18 +3,18 @@ import Signup from './signup/Signup'
 import { Container, Col, Row } from 'reactstrap'
 import Login from './login/Login'
 
-function Auth() {
+function Auth(props) {
     return (
         <>
             <Container>
                 <Row>
                     <Col md="6">
-                        <Signup />
+                        <Signup updateToken={props.updateToken} />
                     </Col>
                 </Row>
                 <Row>
                     <Col md="6">
-                        <Login />
+                        <Login updateToken={props.updateToken} />
                     </Col>
                 </Row>
             </Container>
